@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.parent-cont{
+    width: 100%;
+    height: 100%;
+}
+.h-nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 15px;
+    background-color: blanchedalmond;
+}
+li{
+    margin-right: 20px;
+}
+.main-body-cont{
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
